@@ -1,0 +1,45 @@
+pseudo code for algorithm 2
+
+start
+create a list and read the file
+Diplay
+  Enter 1 to display student information and assignment manrks
+  Enter 2 to display total marks of all students assignment
+  Enter 3 to display the list of students with the total marks less than a certain threshhold
+  Enter 4 to display the 10 highest and the 10 lowest total marks
+  Enter 0 to exit the menu
+
+Integer optionId
+set optionId = option.nextInt()
+  switch (optionId)
+     case 1
+         DIsplay Student details and marks
+         for studentMarks 1:list
+            Display (1.toString)
+         mainmenu
+         break
+
+     case 2
+         DIsplay Student details, marks and total marks
+         for studentMarks 1:list
+            Display (1.toString2)
+         mainmenu
+         break
+
+     case 3
+         DIsplay Student details, marks and total marks less that a certain threshhold
+         floatt th
+         set th = option.nextInt()
+         for studentMarks 1:list
+            set string s = 1.toString3(th)
+            if s not equal null
+            Display s
+         mainmenu
+         break
+
+     case 0
+         break
+
+
+
+     

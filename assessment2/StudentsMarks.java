@@ -8,6 +8,7 @@
 import java.io.File;
 import java.util.Scanner;
 import java.util.*;
+import java.util.ArrayList;
 
 public class StudentsMarks
 {
@@ -44,7 +45,7 @@ public class StudentsMarks
         "\n 1. Enter 1 to display student information and assignment manrks"+
         "\n 2. Enter 2 to display total marks of all students assignment"+
         "\n 3. Enter 3 to display the list of students with the total marks less than a certain threshhold"+
-        "\n 4. Enter 4 to display the 10 highest and the 10 lowest students marks"+
+        "\n 4. Enter 4 to display the 10 highest and the 10 lowest total marks"+
         "\n 5. Enter 0 to exit the menu\n");
         
         int optionId;
@@ -154,10 +155,15 @@ public class StudentsMarks
         }else
           return null;
     }
+    
     public double getTotalMarks(){
         double total = a1+a2+a3;
         return total;
     }
     
+    
+        
+    
+
 }
 
